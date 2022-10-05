@@ -1,0 +1,67 @@
+*,
+*::before, 
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  /* min-height: 100vh; */
+}
+
+.container {
+  /* max-width: 690px; */
+  overflow: hidden; /* pokud chceme docílit oblých rohů, musíme použít overflow: hidden*/
+}
+
+.container__image {
+  flex: 0 0 40%;
+  /* background-image: url('./images/drawers.jpg'); */
+}
+
+.container__body {
+
+}
+
+.container__title {
+
+}
+
+.container__body {
+  flex: 0 0 60%;
+}
+
+.container__perex {
+
+}
+
+.container__footer {
+
+}
+
+.container__user {
+
+}
+
+.container__avatar img{
+
+}
+
+.container__name h2 {
+
+}
+
+.container__info {
+
+}
+
+.container__info span {
+
+}
+
+.container__share-icon {
+
+}
+
