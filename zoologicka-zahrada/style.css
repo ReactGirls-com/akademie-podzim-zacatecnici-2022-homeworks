@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Secular One', sans-serif;
+  background-color: #efc793;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px -1px 5px #cca676;
+}
+
+.zoo {
+  margin: 50px auto;
+  width: 850px;
+  height: 550px;
+  border: 3px solid #9ea89a;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 25px;
+  background: url(images/zoo.png) no-repeat center/cover;
+  /*
+  sem budeš potřebovat něco přidat,
+  aby bylo možné posouvat zvířátka v rámci zoo a ne celé stránky
+  */
+}
+
+.koala {
+  /*
+		koala nejraději okusuje eukalyptus v levém dolním rohu zahrady
+	*/
+}
+
+.crocodile {
+  /*
+		krokodýl se nejraději schovává v trávě uprostřed zahrady podél dolní strany zahrady
+	*/
+}
+
+.flamingo {
+  /*
+		plameňák se rád cachtá ve svém rybníčku ve výběhu v pravém dolním rohu
+	*/
+}
+
+.elephant {
+  /*
+		slůně nejraději odpočívá na polštáři přesně uprostřed zoologické zahrady
+	*/
+}
+
+.giraffe {
+  /*
+		žirafa ráda sleduje svět přes plot své ohrady v pravém horním rohu zahrady.
+    Protože je vysoká, vyčuhuje ze zahrady, a proto v rohu není její pravý horní roh,
+    ale její střed.
+	*/
+}
+
+.zebra {
+  /*
+  zebra je spokojená ve své ohradě v levé horní části zahrady,
+  kde se může 90px od kraje a 60px od horního rohu natáhnout do stínu pod stromem
+  */
+}
+
+.rabbit {
+ /*
+ zajíc má rád přehled ze své dřevěné stoličky v levé horní části zahrady
+ zkus zvolit správný počet pixelů tak, aby seděl na stoličce
+ */
+}
