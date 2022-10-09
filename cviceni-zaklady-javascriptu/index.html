@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cvičení: Základy JavaScriptu</title>
+  <!-- Sem musíš něco přidat, aby tvůj JS fungoval správně -->
+</head>
+  <body>
+    <div class="content">
+      <h1>
+        Cvičení: základy JavaScriptu
+      </h1>
+      <!-- 1. ÚKOL -->
+      <div class="task">
+        <h2 class="sub-header">
+          1. ÚKOL: Změň barvu nadpisu
+        </h2>
+        <p>
+          Vytvoř funkci, která při kliknutí na tlačítko změní barvu nadpisu třeba na červenou.
+        </p>
+        <button class="button" type="button" onclick="changeColor()">Změnit barvu</button>
+      </div>
+      
+      <!-- 2. ÚKOL -->
+      <div class="task">
+        <h2>
+          2. ÚKOL: Přivítej uživatele vyskakovacím oknem
+        </h2>
+        <p>
+          Při kliknutí na tlačítko stránka přivítá užívatele tím, že vyskočí okno (alert) s textem např. Vítej na této stránce!
+        </p>
+        <button class="button" type="button" onclick="welcomeUser()">Přivítat uživatele</button>
+      </div>
+      
+      <!-- 3. ÚKOL -->
+      <div class="task">
+        <h2 class="favourite-quote">
+          3. ÚKOL: Změň tento text při přejetí myší
+        </h2>
+        <p>
+          Změň text nadpisu výše při přejetí myši třeba na tvůj oblíbený citát.
+        </p>
+      </div>
+     
+      <!-- 4. ÚKOL -->
+      <div class="task">
+        <h2>
+          4. ÚKOL: Po kliknutí na tlačítko zobraz aktuální datum a čas
+        </h2>
+        <p>
+          Datum a čas vypiš do připraveného <b>&lt;p&gt;</b>
+        </p>
+        <button class="button" type="button" onclick="findDate()">Zjistit datum a čas</button>
+        <p id="result"></p>
+      </div>
+
+      <!-- 5. ÚKOL -->
+      <div class="task">
+        <h2>
+          5. ÚKOL: Přepínej tlačítkem mezi styly
+        </h2>
+        <p>Zkus k tomu využít podmínku. Styly jsme ti připravili v <b>style.css</b>.
+        </p>
+        <button class="button" type="button" onclick="toggleStyles()">Přepni styl textu</button>
+        <div id="demo" class="my-style">
+          <p>Cvrček má uši pod koleny.</p>
+        </div>
+        
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
